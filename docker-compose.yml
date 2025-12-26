@@ -16,7 +16,7 @@ services:
       - mysql_data:/var/lib/mysql
 
   directus:
-    image: directus/directus:11
+    image: directus/directus:latest
     container_name: directus_app
     restart: unless-stopped
     ports:
